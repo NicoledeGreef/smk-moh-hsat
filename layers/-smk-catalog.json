@@ -1,0 +1,53 @@
+{
+    "layers": [
+        {
+            "title": "HSAT Facilities",
+            "id": "hsat-facilities",
+            "attributes": [
+                {
+                    "id": "facility-name",
+                    "name": "Facility Name",
+                    "title": "Facility Name",
+                    "visible": true
+                },
+                {
+                    "id": "addressstring",
+                    "name": "addressString",
+                    "title": "addressString",
+                    "visible": true
+                },
+                {
+                    "id": "phone",
+                    "name": "Phone",
+                    "title": "Phone",
+                    "visible": true
+                },
+                {
+                    "id": "location",
+                    "name": "Location",
+                    "title": "Location",
+                    "visible": true
+                },
+                {
+                    "id": "parent-company",
+                    "name": "Parent Company",
+                    "title": "Parent Company",
+                    "visible": true
+                },
+                {
+                    "id": "longitude",
+                    "name": "LONGITUDE",
+                    "title": "LONGITUDE",
+                    "visible": true
+                },
+                {
+                    "id": "latitude",
+                    "name": "LATITUDE",
+                    "title": "LATITUDE",
+                    "visible": true
+                }
+            ],
+            "dataUrl": "./layers/hsat-facilities.geojson"
+        }
+    ]
+}
