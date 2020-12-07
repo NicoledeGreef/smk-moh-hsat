@@ -1,0 +1,13 @@
+{
+    "name": "moh-hsat",
+    "version": "0.0.1",
+    "description": "Displays HSAT facilities in relation to Health Service Delivery Area boundaries in BC.",
+    "author": "ndegreef",
+    "dependencies": {
+        "smk": "1.0.0-beta.9",
+        "http-server": "^0.12.3"
+    },
+    "scripts": {
+        "view": "http-server -o -c-1"
+    }
+}
