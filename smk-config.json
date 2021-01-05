@@ -123,7 +123,7 @@
             "opacity": 0.65,
             "minScale": null,
             "maxScale": null,
-            "titleAttribute": null,
+            "titleAttribute": "Facility Name",
             "attributes": [
                 {
                     "id": "facility-name",
@@ -169,7 +169,7 @@
                 }
             ],
             "queries": null,
-            "useClustering": false,
+            "useClustering": true,
             "dataUrl": "./layers/hsat-facilities.geojson",
             "legend": {
                 "line": false,
@@ -184,11 +184,195 @@
                 "fill": true,
                 "fillColor": "red",
                 "fillOpacity": 0.65,
-                "marker": true
+                "marker": false,
+                "markerUrl": null,
+                "stroke": false
             },
             "legends": null,
             "useHeatmap": false,
-            "useRaw": true
+            "useRaw": false
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 4016,
+            "title": "Polysomnography",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 12000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "DIAGNOSTIC_FACILITY_ID",
+                    "title": "Diagnostic Facility ID",
+                    "visible": true
+                },
+                {
+                    "name": "FACILITY_NAME",
+                    "title": "Facility Name",
+                    "visible": true
+                },
+                {
+                    "name": "OWNERSHIP_CODE_DESCRIPTION",
+                    "title": "Ownership Code Description",
+                    "visible": true
+                },
+                {
+                    "name": "OWNERSHIP_NAME",
+                    "title": "Ownership Name",
+                    "visible": true
+                },
+                {
+                    "name": "ADDRESS",
+                    "title": "Address",
+                    "visible": true
+                },
+                {
+                    "name": "CITY",
+                    "title": "City",
+                    "visible": true
+                },
+                {
+                    "name": "SERVICE_CODE_DESCRIPTION",
+                    "title": "Service Code Description",
+                    "visible": true
+                },
+                {
+                    "name": "FACILITY_ESTABLISHED_DATE",
+                    "title": "Facility Established Date",
+                    "visible": true
+                },
+                {
+                    "name": "LATITUDE",
+                    "title": "Latitude",
+                    "visible": true
+                },
+                {
+                    "name": "LONGITUDE",
+                    "title": "Longitude",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "Geometry",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "Object ID",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "4016",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":4016,\"minScale\":12000000,\"maxScale\":0,\"definitionExpression\":\"SERVICE_CODE_DESCRIPTION = 'Polysomnography'\",\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_IMAGERY_AND_BASE_MAPS.ACDF_DIAGNOSTIC_FACILITIES_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriPMS\",\"url\":\"ccbe99c243a0b0f868318d0d76c0bfc7\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAALZJREFUGJV90DFKA1EUBdBDGPiVTCGIgkswnWAhgoJK1mDjCiSFoIV7SJVFuAshuApXEAQxQSxuE2zm44BxXvXgHS6X1/g7I7RYY9M/NL29LaU8JjkvpeziE4skMyz7eAfPSSaQpAac4Bg3WDbQJU62VIILPOGu6ZKu/4G6sKsko1rjYAgn2Udb8QqHA36FdcULHA3gV2wqfsAZxlvgG+75fd03TjHHJfbwgRdM8d7H8IXbgSp+AAo5MXdIf4fZAAAAAElFTkSuQmCC\",\"contentType\":\"image/png\",\"width\":8,\"height\":8,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"label\":\"\",\"description\":\"\"},\"transparency\":0,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/4f75e9f6-1459-4ae2-990d-b53b1c389525"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 377,
+            "title": "Health Service Delivery Areas - Colour Themed",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 20000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "HLTH_HSDA_SYSID",
+                    "title": "HLTH_HSDA_SYSID",
+                    "visible": false
+                },
+                {
+                    "name": "HLTH_SERVICE_DLVR_AREA_CODE",
+                    "title": "HSDA Code",
+                    "visible": true
+                },
+                {
+                    "name": "HLTH_SERVICE_DLVR_AREA_NAME",
+                    "title": "HSDA Name",
+                    "visible": true
+                },
+                {
+                    "name": "HLTH_SERVICE_DLVR_AREA_ID",
+                    "title": "HSDA ID",
+                    "visible": true
+                },
+                {
+                    "name": "HLTH_AUTHORITY_CODE",
+                    "title": "HA Code",
+                    "visible": true
+                },
+                {
+                    "name": "HLTH_AUTHORITY_NAME",
+                    "title": "HA Name",
+                    "visible": true
+                },
+                {
+                    "name": "HLTH_AUTHORITY_ID",
+                    "title": "HA ID",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Feature Area SQM",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": false
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE",
+                    "title": "SHAPE",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE.AREA",
+                    "title": "SHAPE.AREA",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.LEN",
+                    "title": "SHAPE.LEN",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "377",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":377,\"minScale\":20000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_ADMIN_BOUNDARIES.BCHA_HEALTH_SERV_DEL_AREA_SP\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"uniqueValue\",\"field1\":\"HLTH_SERVICE_DLVR_AREA_NAME\",\"field2\":null,\"field3\":null,\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[195,222,228,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[155,200,211,255],\"width\":1.25}},\"value\":\"East Kootenay\",\"label\":\"East Kootenay\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[155,200,211,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[115,178,193,255],\"width\":1.25}},\"value\":\"Kootenay Boundary\",\"label\":\"Kootenay Boundary\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[115,178,193,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[75,156,175,255],\"width\":1.25}},\"value\":\"Okanagan\",\"label\":\"Okanagan\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[75,156,175,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[56,145,167,255],\"width\":1.25}},\"value\":\"Thompson Cariboo Shuswap\",\"label\":\"Thompson Cariboo Shuswap\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[225,194,134,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[213,170,85,255],\"width\":1.25}},\"value\":\"Fraser East\",\"label\":\"Fraser East\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[213,170,85,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[201,146,37,255],\"width\":1.25}},\"value\":\"Fraser North\",\"label\":\"Fraser North\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[201,146,37,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[195,134,13,255],\"width\":1.25}},\"value\":\"Fraser South\",\"label\":\"Fraser South\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[225,150,150,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[213,108,108,255],\"width\":1.25}},\"value\":\"Richmond\",\"label\":\"Richmond\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[213,108,108,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[201,66,66,255],\"width\":1.25}},\"value\":\"Vancouver\",\"label\":\"Vancouver\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[201,66,66,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[196,46,46,255],\"width\":1.25}},\"value\":\"North Shore/Coast Garibaldi\",\"label\":\"North Shore/Coast Garibaldi\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[179,210,157,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[148,192,118,255],\"width\":1.25}},\"value\":\"South Vancouver Island\",\"label\":\"South Vancouver Island\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[148,192,118,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[118,174,79,255],\"width\":1.25}},\"value\":\"Central Vancouver Island\",\"label\":\"Central Vancouver Island\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[118,174,79,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[103,166,60,255],\"width\":1.25}},\"value\":\"North Vancouver Island\",\"label\":\"North Vancouver Island\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[211,184,221,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[189,149,204,255],\"width\":1.25}},\"value\":\"Northwest\",\"label\":\"Northwest\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[189,149,204,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[167,114,187,255],\"width\":1.25}},\"value\":\"Northern Interior\",\"label\":\"Northern Interior\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[167,114,187,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[145,79,171,255],\"width\":1.25}},\"value\":\"Northeast\",\"label\":\"Northeast\",\"description\":\"\"}],\"fieldDelimiter\":\",\"},\"transparency\":50,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/71c930b9-563a-46da-a10f-ead49ccbc390"
         }
     ],
     "tools": [
@@ -240,11 +424,21 @@
             "display": [
                 {
                     "id": 376,
-                    "title": "Health Service Delivery Areas"
+                    "title": "Health Service Delivery Area Boundaries",
+                    "isVisible": false
                 },
                 {
                     "id": "hsat-facilities",
                     "isVisible": true
+                },
+                {
+                    "id": 4016,
+                    "isVisible": true
+                },
+                {
+                    "id": 377,
+                    "isVisible": true,
+                    "title": "Health Service Delivery Areas"
                 }
             ]
         },
