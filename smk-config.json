@@ -153,7 +153,7 @@
                     "id": "parent-company",
                     "name": "Parent Company",
                     "title": "Parent Company",
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "id": "longitude",
