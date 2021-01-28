@@ -3,117 +3,21 @@
     "viewer": {
         "type": "leaflet",
         "location": {
-            "extent": [
-                -140.80078125000003,
-                61.62728646147466,
-                -108.72070312500001,
-                46.13417004624326
-            ],
             "center": [
-                -124.76074218750003,
-                51.88072825385896
+                -124.74975585937501,
+                51.883272964437474
+            ],
+            "extent": [
+                -131.13281250000003,
+                48.019324184801185,
+                -118.36669921875001,
+                55.441479359140686
             ],
             "zoom": 6
         },
         "baseMap": "Gray"
     },
     "layers": [
-        {
-            "type": "esri-dynamic",
-            "id": 376,
-            "title": "Health Service Delivery Areas - Outlined",
-            "isVisible": true,
-            "isQueryable": true,
-            "opacity": 0.65,
-            "minScale": 20000000,
-            "maxScale": 0,
-            "titleAttribute": null,
-            "attributes": [
-                {
-                    "name": "HLTH_HSDA_SYSID",
-                    "title": "HLTH_HSDA_SYSID",
-                    "visible": false
-                },
-                {
-                    "name": "HLTH_SERVICE_DLVR_AREA_CODE",
-                    "title": "HSDA Code",
-                    "visible": true
-                },
-                {
-                    "name": "HLTH_SERVICE_DLVR_AREA_NAME",
-                    "title": "HSDA Name",
-                    "visible": true
-                },
-                {
-                    "name": "HLTH_SERVICE_DLVR_AREA_ID",
-                    "title": "HSDA ID",
-                    "visible": true
-                },
-                {
-                    "name": "HLTH_AUTHORITY_CODE",
-                    "title": "HA Code",
-                    "visible": true
-                },
-                {
-                    "name": "HLTH_AUTHORITY_NAME",
-                    "title": "HA Name",
-                    "visible": true
-                },
-                {
-                    "name": "HLTH_AUTHORITY_ID",
-                    "title": "HA ID",
-                    "visible": true
-                },
-                {
-                    "name": "FEATURE_CODE",
-                    "title": "Feature Code",
-                    "visible": false
-                },
-                {
-                    "name": "FEATURE_AREA_SQM",
-                    "title": "Feature Area SQM",
-                    "visible": true
-                },
-                {
-                    "name": "FEATURE_LENGTH_M",
-                    "title": "FEATURE_LENGTH_M",
-                    "visible": false
-                },
-                {
-                    "name": "OBJECTID",
-                    "title": "OBJECTID",
-                    "visible": true
-                },
-                {
-                    "name": "SE_ANNO_CAD_DATA",
-                    "title": "SE_ANNO_CAD_DATA",
-                    "visible": false
-                },
-                {
-                    "name": "SHAPE",
-                    "title": "SHAPE",
-                    "visible": true
-                },
-                {
-                    "name": "SHAPE.AREA",
-                    "title": "SHAPE.AREA",
-                    "visible": false
-                },
-                {
-                    "name": "SHAPE.LEN",
-                    "title": "SHAPE.LEN",
-                    "visible": false
-                }
-            ],
-            "queries": null,
-            "mpcmId": "376",
-            "mpcmWorkspace": "MPCM_ALL_PUB",
-            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
-            "dynamicLayers": [
-                "{\"id\":376,\"minScale\":20000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_ADMIN_BOUNDARIES.BCHA_HEALTH_SERV_DEL_AREA_SP\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,77,168,255],\"width\":2}},\"label\":\"\",\"description\":\"\"},\"transparency\":0,\"labelingInfo\":[{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":\"HLTH_AUTHORITY_CODE = 1\",\"labelExpression\":\"[HLTH_SERVICE_DLVR_AREA_ID]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[28,72,83,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"bottom\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[255,255,255,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":12,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":600000,\"maxScale\":0},{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":\"HLTH_AUTHORITY_CODE = 2\",\"labelExpression\":\"[HLTH_SERVICE_DLVR_AREA_ID]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[97,67,6,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"bottom\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[255,255,255,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":12,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":600000,\"maxScale\":0},{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":\"HLTH_AUTHORITY_CODE = 3\",\"labelExpression\":\"[HLTH_SERVICE_DLVR_AREA_ID]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[98,23,23,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"bottom\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[255,255,255,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":12,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":600000,\"maxScale\":0},{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":\"HLTH_AUTHORITY_CODE = 4\\n\",\"labelExpression\":\"[HLTH_SERVICE_DLVR_AREA_ID]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[51,83,30,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"bottom\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[255,255,255,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":12,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":600000,\"maxScale\":0},{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":\"HLTH_AUTHORITY_CODE = 5\",\"labelExpression\":\"[HLTH_SERVICE_DLVR_AREA_ID]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[72,39,85,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"bottom\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[255,255,255,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":12,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":600000,\"maxScale\":0}]}}"
-            ],
-            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/71c930b9-563a-46da-a10f-ead49ccbc390"
-        },
         {
             "type": "vector",
             "id": "hsat-facilities",
@@ -206,7 +110,7 @@
                 {
                     "name": "DIAGNOSTIC_FACILITY_ID",
                     "title": "Diagnostic Facility ID",
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "name": "FACILITY_NAME",
@@ -215,7 +119,7 @@
                 },
                 {
                     "name": "OWNERSHIP_CODE_DESCRIPTION",
-                    "title": "Ownership Code Description",
+                    "title": "Ownership Type",
                     "visible": true
                 },
                 {
@@ -235,33 +139,33 @@
                 },
                 {
                     "name": "SERVICE_CODE_DESCRIPTION",
-                    "title": "Service Code Description",
+                    "title": "Service Code",
                     "visible": true
                 },
                 {
                     "name": "FACILITY_ESTABLISHED_DATE",
                     "title": "Facility Established Date",
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "name": "LATITUDE",
                     "title": "Latitude",
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "name": "LONGITUDE",
                     "title": "Longitude",
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "name": "GEOMETRY",
                     "title": "Geometry",
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "name": "OBJECTID",
                     "title": "Object ID",
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "name": "SE_ANNO_CAD_DATA",
@@ -296,33 +200,33 @@
                 },
                 {
                     "name": "HLTH_SERVICE_DLVR_AREA_CODE",
-                    "title": "HSDA Code",
-                    "visible": true
+                    "title": "Hea",
+                    "visible": false
                 },
                 {
                     "name": "HLTH_SERVICE_DLVR_AREA_NAME",
-                    "title": "HSDA Name",
+                    "title": "Health Service Delivery Area",
                     "visible": true
                 },
                 {
                     "name": "HLTH_SERVICE_DLVR_AREA_ID",
                     "title": "HSDA ID",
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "name": "HLTH_AUTHORITY_CODE",
                     "title": "HA Code",
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "name": "HLTH_AUTHORITY_NAME",
-                    "title": "HA Name",
+                    "title": "Health Authority",
                     "visible": true
                 },
                 {
                     "name": "HLTH_AUTHORITY_ID",
                     "title": "HA ID",
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "name": "FEATURE_CODE",
@@ -332,7 +236,7 @@
                 {
                     "name": "FEATURE_AREA_SQM",
                     "title": "Feature Area SQM",
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "name": "FEATURE_LENGTH_M",
@@ -342,7 +246,7 @@
                 {
                     "name": "OBJECTID",
                     "title": "OBJECTID",
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "name": "SE_ANNO_CAD_DATA",
@@ -352,7 +256,7 @@
                 {
                     "name": "SHAPE",
                     "title": "SHAPE",
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "name": "SHAPE.AREA",
@@ -398,7 +302,7 @@
             "position": "list-menu",
             "icon": "help",
             "title": "About This Map",
-            "content": "<p>This map displays HSAT facilities in relation to Health Service Delivery Area boundaries in BC.</p>",
+            "content": "<p>This map allows for users to determine which Health Service Delivery Areas a given Home Sleep Apnea Testing facility resides in, and also displays established Polysomnography clinics in BC</p>",
             "type": "about",
             "enabled": true
         },
@@ -422,11 +326,6 @@
             "type": "layers",
             "enabled": true,
             "display": [
-                {
-                    "id": 376,
-                    "title": "Health Service Delivery Area Boundaries",
-                    "isVisible": false
-                },
                 {
                     "id": "hsat-facilities",
                     "isVisible": true
