@@ -183,100 +183,99 @@
             "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/4f75e9f6-1459-4ae2-990d-b53b1c389525"
         },
         {
-            "type": "esri-dynamic",
-            "id": 377,
-            "title": "Health Service Delivery Areas - Colour Themed",
+            "type": "wms",
+            "id": "pub-whse-admin-boundaries-bcha-health-serv-del-area-sp--376-377",
+            "title": "Health Service Delivery Area Boundaries ( 376_377 )",
             "isVisible": true,
             "isQueryable": true,
             "opacity": 0.65,
-            "minScale": 20000000,
-            "maxScale": 0,
+            "minScale": null,
+            "maxScale": null,
             "titleAttribute": null,
             "attributes": [
                 {
+                    "id": "hlth-hsda-sysid",
                     "name": "HLTH_HSDA_SYSID",
-                    "title": "HLTH_HSDA_SYSID",
+                    "title": "HLTH HSDA SYSID",
                     "visible": false
                 },
                 {
+                    "id": "hlth-service-dlvr-area-code",
                     "name": "HLTH_SERVICE_DLVR_AREA_CODE",
-                    "title": "Hea",
+                    "title": "HLTH SERVICE DLVR AREA CODE",
                     "visible": false
                 },
                 {
+                    "id": "hlth-service-dlvr-area-name",
                     "name": "HLTH_SERVICE_DLVR_AREA_NAME",
-                    "title": "Health Service Delivery Area",
+                    "title": "HLTH SERVICE DLVR AREA NAME",
                     "visible": true
                 },
                 {
+                    "id": "hlth-service-dlvr-area-id",
                     "name": "HLTH_SERVICE_DLVR_AREA_ID",
-                    "title": "HSDA ID",
+                    "title": "HLTH SERVICE DLVR AREA ID",
                     "visible": false
                 },
                 {
+                    "id": "hlth-authority-code",
                     "name": "HLTH_AUTHORITY_CODE",
-                    "title": "HA Code",
+                    "title": "HLTH AUTHORITY CODE",
                     "visible": false
                 },
                 {
+                    "id": "hlth-authority-name",
                     "name": "HLTH_AUTHORITY_NAME",
-                    "title": "Health Authority",
+                    "title": "HLTH AUTHORITY NAME",
                     "visible": true
                 },
                 {
+                    "id": "hlth-authority-id",
                     "name": "HLTH_AUTHORITY_ID",
-                    "title": "HA ID",
+                    "title": "HLTH AUTHORITY ID",
                     "visible": false
                 },
                 {
+                    "id": "feature-code",
                     "name": "FEATURE_CODE",
-                    "title": "Feature Code",
+                    "title": "FEATURE CODE",
                     "visible": false
                 },
                 {
+                    "id": "feature-area-sqm",
                     "name": "FEATURE_AREA_SQM",
-                    "title": "Feature Area SQM",
+                    "title": "FEATURE AREA SQM",
                     "visible": false
                 },
                 {
+                    "id": "feature-length-m",
                     "name": "FEATURE_LENGTH_M",
-                    "title": "FEATURE_LENGTH_M",
+                    "title": "FEATURE LENGTH M",
                     "visible": false
                 },
                 {
-                    "name": "OBJECTID",
-                    "title": "OBJECTID",
-                    "visible": false
-                },
-                {
-                    "name": "SE_ANNO_CAD_DATA",
-                    "title": "SE_ANNO_CAD_DATA",
-                    "visible": false
-                },
-                {
+                    "id": "shape",
                     "name": "SHAPE",
                     "title": "SHAPE",
                     "visible": false
                 },
                 {
-                    "name": "SHAPE.AREA",
-                    "title": "SHAPE.AREA",
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
                     "visible": false
                 },
                 {
-                    "name": "SHAPE.LEN",
-                    "title": "SHAPE.LEN",
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE ANNO CAD DATA",
                     "visible": false
                 }
             ],
             "queries": null,
-            "mpcmId": "377",
-            "mpcmWorkspace": "MPCM_ALL_PUB",
-            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
-            "dynamicLayers": [
-                "{\"id\":377,\"minScale\":20000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_ADMIN_BOUNDARIES.BCHA_HEALTH_SERV_DEL_AREA_SP\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"uniqueValue\",\"field1\":\"HLTH_SERVICE_DLVR_AREA_NAME\",\"field2\":null,\"field3\":null,\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[195,222,228,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[155,200,211,255],\"width\":1.25}},\"value\":\"East Kootenay\",\"label\":\"East Kootenay\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[155,200,211,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[115,178,193,255],\"width\":1.25}},\"value\":\"Kootenay Boundary\",\"label\":\"Kootenay Boundary\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[115,178,193,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[75,156,175,255],\"width\":1.25}},\"value\":\"Okanagan\",\"label\":\"Okanagan\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[75,156,175,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[56,145,167,255],\"width\":1.25}},\"value\":\"Thompson Cariboo Shuswap\",\"label\":\"Thompson Cariboo Shuswap\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[225,194,134,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[213,170,85,255],\"width\":1.25}},\"value\":\"Fraser East\",\"label\":\"Fraser East\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[213,170,85,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[201,146,37,255],\"width\":1.25}},\"value\":\"Fraser North\",\"label\":\"Fraser North\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[201,146,37,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[195,134,13,255],\"width\":1.25}},\"value\":\"Fraser South\",\"label\":\"Fraser South\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[225,150,150,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[213,108,108,255],\"width\":1.25}},\"value\":\"Richmond\",\"label\":\"Richmond\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[213,108,108,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[201,66,66,255],\"width\":1.25}},\"value\":\"Vancouver\",\"label\":\"Vancouver\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[201,66,66,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[196,46,46,255],\"width\":1.25}},\"value\":\"North Shore/Coast Garibaldi\",\"label\":\"North Shore/Coast Garibaldi\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[179,210,157,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[148,192,118,255],\"width\":1.25}},\"value\":\"South Vancouver Island\",\"label\":\"South Vancouver Island\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[148,192,118,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[118,174,79,255],\"width\":1.25}},\"value\":\"Central Vancouver Island\",\"label\":\"Central Vancouver Island\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[118,174,79,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[103,166,60,255],\"width\":1.25}},\"value\":\"North Vancouver Island\",\"label\":\"North Vancouver Island\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[211,184,221,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[189,149,204,255],\"width\":1.25}},\"value\":\"Northwest\",\"label\":\"Northwest\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[189,149,204,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[167,114,187,255],\"width\":1.25}},\"value\":\"Northern Interior\",\"label\":\"Northern Interior\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[167,114,187,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[145,79,171,255],\"width\":1.25}},\"value\":\"Northeast\",\"label\":\"Northeast\",\"description\":\"\"}],\"fieldDelimiter\":\",\"},\"transparency\":50,\"labelingInfo\":null}}"
-            ],
-            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/71c930b9-563a-46da-a10f-ead49ccbc390"
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_ADMIN_BOUNDARIES.BCHA_HEALTH_SERV_DEL_AREA_SP",
+            "styleName": "376_377"
         }
     ],
     "tools": [
@@ -335,7 +334,7 @@
                     "isVisible": true
                 },
                 {
-                    "id": 377,
+                    "id": "pub-whse-admin-boundaries-bcha-health-serv-del-area-sp--376-377",
                     "isVisible": true,
                     "title": "Health Service Delivery Areas"
                 }
