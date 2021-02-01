@@ -208,7 +208,7 @@
                 {
                     "id": "hlth-service-dlvr-area-name",
                     "name": "HLTH_SERVICE_DLVR_AREA_NAME",
-                    "title": "HLTH SERVICE DLVR AREA NAME",
+                    "title": "Health Service Delivery Area",
                     "visible": true
                 },
                 {
@@ -226,7 +226,7 @@
                 {
                     "id": "hlth-authority-name",
                     "name": "HLTH_AUTHORITY_NAME",
-                    "title": "HLTH AUTHORITY NAME",
+                    "title": "Health Authority",
                     "visible": true
                 },
                 {
@@ -354,7 +354,7 @@
                 "radius": false,
                 "radiusUnit": false,
                 "nearBy": false,
-                "attributeMode": true
+                "attributeMode": false
             },
             "radius": 5,
             "radiusUnit": "px",
